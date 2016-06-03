@@ -439,6 +439,16 @@ jQuery(function($) {
     // All set, call the WordCloud()
     // Order matters here because the HTML canvas might by
     // set to display: none.
+    console.log('canvas:')
+    console.log('-----------------------------')
+    console.log($canvas[0]);
+    console.log('htmlCanvas:')
+    console.log('-----------------------------')
+    console.log($htmlCanvas[0]);
+    console.log('options:')
+    console.log('-----------------------------')
+    console.log(options);
+
     WordCloud([$canvas[0], $htmlCanvas[0]], options);
   };
 
